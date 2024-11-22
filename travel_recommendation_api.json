@@ -1,0 +1,80 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "Australia",
+            "cities": [
+                {
+                    "name": "Sydney, Australia",
+                    "imageUrl": "https://media.istockphoto.com/id/2157517578/es/foto/aerial-view-of-bondi-beach-sydney.jpg?s=1024x1024&w=is&k=20&c=DZ9lOYmuIQmc784ZLDMLhHrsol4fOZNNp6gtU3WM_0U=",
+                    "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+                },
+                {
+                    "name": "Melbourne, Australia",
+                    "imageUrl": "https://media.istockphoto.com/id/493621192/es/foto/melbourne-al-atardecer.jpg?s=1024x1024&w=is&k=20&c=UudR8usNK4H3jR38mc-2iB3MOHgHYc8gsU42_RHm1R4=",
+                    "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Japan",
+            "cities": [
+                {
+                    "name": "Tokyo, Japan",
+                    "imageUrl": "https://media.istockphoto.com/id/904453184/es/foto/horizonte-de-mt-fuji-y-tokio.jpg?s=1024x1024&w=is&k=20&c=WslbVd44VeT1Jw2avCznjyP-vDub8z0UAHYfDIGip2c=",
+                    "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+                },
+                {
+                    "name": "Kyoto, Japan",
+                    "imageUrl": "https://media.istockphoto.com/id/1146262403/es/foto/mujer-vistiendo-kimono-tradicional-japon%C3%A9s-caminando-en-el-distrito-hist%C3%B3rico-de-higashiyama.jpg?s=1024x1024&w=is&k=20&c=HtQfT09CaoHRMEV5RDBNX-m4ibIWlhoahdTnYwvicFU=",
+                    "description": "Known for its historic temples, gardens, and traditional tea houses."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Brazil",
+            "cities": [
+                {
+                    "name": "Rio de Janeiro, Brazil",
+                    "imageUrl": "https://media.istockphoto.com/id/518230906/es/foto/cristo-el-redentor-en-rio-de-janeiro.jpg?s=1024x1024&w=is&k=20&c=bjQU7pWF2kSUEhJd8fcl60nZc6YDv_BKzoXy5ac3rAg=",
+                    "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+                },
+                {
+                    "name": "São Paulo, Brazil",
+                    "imageUrl": "https://media.istockphoto.com/id/1166728645/es/foto/puente-colgante-puente-atirantado-en-el-mundo.jpg?s=1024x1024&w=is&k=20&c=2DB7pHi8U3rL9OZimgc-LGzk1r92kV4kET2zA4EuiZw=",
+                    "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+                }
+            ]
+        }
+    ],
+    "temples": [
+        {
+            "id": 1,
+            "name": "Angkor Wat, Cambodia",
+            "imageUrl": "https://media.istockphoto.com/id/502325314/es/foto/el-templo-de-angkor-wat-en-camboya.jpg?s=1024x1024&w=is&k=20&c=0gd13sp-y5VCf7tucnwhcUTCjTxC-7RWo_mtEYQYlCw=",
+            "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+        },
+        {
+            "id": 2,
+            "name": "Taj Mahal, India",
+            "imageUrl": "https://media.istockphoto.com/id/519330110/es/foto/taj-mahal-agra-india-monumento-de-amor-en-cielo-azul.jpg?s=2048x2048&w=is&k=20&c=EWbPQRP2mr8RlrMJBWJURmJTYOv9iJawQL9ynOxUVCU=",
+            "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+        }
+    ],
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Bora Bora, French Polynesia",
+            "imageUrl": "https://media.istockphoto.com/id/1325734740/es/foto/viajes-de-lujo-de-vacaciones-a%C3%A9reas-de-bungalows-sobre-el-agua-resort-en-la-laguna-de.jpg?s=1024x1024&w=is&k=20&c=uu_Kp_Bnz0QjzCcx3YsDXebystSPMSEld239cokqGP8=",
+            "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+        },
+        {
+            "id": 2,
+            "name": "Copacabana Beach, Brazil",
+            "imageUrl": "https://media.istockphoto.com/id/473089840/es/foto/vista-a%C3%A9rea-de-la-famosa-playa-de-copacabana-en-rio-de-janeiro.jpg?s=1024x1024&w=is&k=20&c=h3lVFBFLi16Di_BXRmOXagfj7Cdzpd-tctEdNn3TBnA=",
+            "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+        }
+    ]
+}

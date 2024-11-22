@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Recommendations</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        padding: 10px;
+        color: white;
+      }
+      nav a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      nav input,
+      nav button {
+        padding: 5px;
+      }
+      #results-container {
+        padding: 20px;
+      }
+      .recommendation {
+        margin-bottom: 20px;
+      }
+      .recommendation img {
+        max-width: 300px;
+        height: auto;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./travel_recommendation.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <div>
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search recommendations..."
+          />
+          <button onclick="performSearch()">Search</button>
+          <button onclick="clearResults()">Reset</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="results-container">
+        <h2>Recommendations will appear here:</h2>
+      </section>
+    </main>
+  </body>
+</html>
