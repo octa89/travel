@@ -4,39 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Recommendations</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      nav {
-        display: flex;
-        justify-content: space-between;
-        background-color: #333;
-        padding: 10px;
-        color: white;
-      }
-      nav a {
-        color: white;
-        margin: 0 10px;
-        text-decoration: none;
-      }
-      nav input,
-      nav button {
-        padding: 5px;
-      }
-      #results-container {
-        padding: 20px;
-      }
-      .recommendation {
-        margin-bottom: 20px;
-      }
-      .recommendation img {
-        max-width: 300px;
-        height: auto;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./travel_recommendation.js" defer></script>
   </head>
@@ -60,9 +28,17 @@
       </nav>
     </header>
     <main>
-      <section id="results-container">
-        <h2>Recommendations will appear here:</h2>
-      </section>
+      <div id="content-container">
+        <section id="results-container">
+          <h2>Travel Recommendations</h2>
+          <!-- Other content can go here -->
+        </section>
+        <aside id="contact-container">
+          <h2>Contact Us</h2>
+          <p>Feel free to reach out to us!</p>
+          <!-- You can add a contact form or additional information here -->
+        </aside>
+      </div>
     </main>
   </body>
 </html>

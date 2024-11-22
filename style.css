@@ -1,0 +1,104 @@
+/* style.css */
+
+/* Apply a background image and basic styling to the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('assets/BG.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    height: 100vh; /* Ensure the body takes full viewport height */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Style the header and navigation */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Style for the search bar and buttons */
+#search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00; /* Button background color */
+    color: #000; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; /* Add margin to the left of buttons */
+}
+
+button:hover {
+    background-color: #e6b800; /* Darker shade on hover */
+}
+
+/* Main content container */
+#content-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out children */
+    padding: 20px;
+}
+
+/* Style for the main results section */
+#results-container {
+    flex: 1; /* Take up remaining space */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for results */
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px; /* Space between sections */
+}
+
+/* Style for the contact box */
+#contact-container {
+    width: 300px; /* Fixed width for the contact box */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #content-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    #results-container {
+        margin-right: 0; /* Remove margin on small screens */
+        margin-bottom: 20px; /* Add space below results */
+    }
+
+    #contact-container {
+        width: 100%; /* Full width on small screens */
+    }
+}
